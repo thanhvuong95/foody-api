@@ -1,0 +1,20 @@
+{
+  "name": "food_api",
+  "version": "1.0.0",
+  "description": "food-api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "nodemon main.js"
+  },
+  "author": "Thanh Vuong",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
